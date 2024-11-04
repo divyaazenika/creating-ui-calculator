@@ -108,7 +108,6 @@ class _CalculatorState extends State<Calculator> {
             if (label == 'C') {
               display = '0'; 
             } else if (label == '=') {
-              // Logika untuk hasil dari perhitungan dapat ditambahkan di sini
             } else {
               if (display == '0') {
                 display = label; 
